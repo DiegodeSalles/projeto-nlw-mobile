@@ -8,7 +8,7 @@ type Props = {
   size: number;
 };
 
-export default function QRCode({ value, size }: Props) {
+export function QRCode({ value, size }: Props) {
   return (
     <View>
       <QRCodeSvg
